@@ -144,6 +144,12 @@
         margin:auto;
     }
 
+    .row1:after {
+        content:"";
+        display:table;
+        clear:both;
+    }
+
     .row2 {
         width:65%;
         margin:auto;
@@ -223,15 +229,14 @@
         padding: 20px 0;
         position: static;
         width: 100%;
-        bottom: 0;
+        height: auto;
+
     }
 
     .footer-links {
         list-style: none;
         padding: 0;
-        display: flex;
-        justify-content: center;
-        gap: 45px;
+        line-height: 180%;
     }
 
     .footer-links li {
